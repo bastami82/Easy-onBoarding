@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Onboarding</string>
+    <string name="onboard_screen1_line1">One slide or more</string>
+    <string name="onboard_screen1_line2">Easily customise your Slide(s), just pass your slide data(i.e. title, description etc),rotation supported with an option to force only one orientation.</string>
+    <string name="onboard_screen2_line1">Agree to continue</string>
+    <string name="onboard_screen2_line2">If you require user consents to allow them continue beyond last slide, you can do so by removing skip button(top right). </string>
+    <string name="onboard_screen2_button">your text</string>
+    <string name="onboard_screen3_line1">Slide with a link</string>
+    <string name="onboard_screen3_line2">Per your requirement each slide can have a Lotti animation, an image or none.</string>
+    <string name="onboard_screen3_link_url">https://lottiefiles.com</string>
+    <string name="onboard_screen3_link_mask">Lotti animation</string>
+    <string name="button_start">start</string>
+</resources>
