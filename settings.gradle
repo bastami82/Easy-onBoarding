@@ -1,2 +1,2 @@
-include ':app', ':lib'
+include ':sampleApp', ':lib'
 rootProject.name='Onboarding'
