@@ -1,4 +1,5 @@
-[![Release](https://jitpack.io/v/bastami82/Easy-onBoarding.svg)](https://jitpack.io/#bastami82/Easy-onBoarding)
+[![](https://jitpack.io/v/bastami82/Easy-onBoarding.svg)](https://jitpack.io/#bastami82/Easy-onBoarding)
+
 
 # Easy onBoarding
 Use this library to add onBoarding slides to your app easily.
@@ -88,7 +89,7 @@ see sample app included in lib for working example:
 
  `Activity.RESULT_OK`  if final button (in last slide) is tapped,
  
- `Activity.RESULT_CANCEL`  if back or skip button is tapped
+ `Activity.RESULT_CANCEL`  if back or skip button is tapped.
 
 
 
