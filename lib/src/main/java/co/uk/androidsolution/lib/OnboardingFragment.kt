@@ -59,14 +59,14 @@ class OnboardingFragment : Fragment() {
         }
         onboardingLine1.text = model.title
         onboardingLine2.text = model.description
-        if (model.linkMask.isEmpty() || model.linkUrl.isEmpty()) {
+        if (model.linkMask.isNullOrEmpty() || model.linkUrl.isNullOrEmpty()) {
             button_start.visibility = View.GONE
         } else {
             button_start.apply {
                 visibility = View.VISIBLE
                 text = model.linkMask
                 setOnSingleClickListener {
-                    model.linkUrl.let {
+                    model.linkUrl?.let {
                         ChromeTabActivity.startActivity(view.context, it)
                     }
 

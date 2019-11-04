@@ -35,35 +35,39 @@ class MainActivity : AppCompatActivity() {
     private fun getSlides(): List<SlideModel> {
 
         val list = ArrayList<SlideModel>()
-        val screen1 = SlideModel(
-            null,
-            R.raw.animation_slide_1,
-            getString(R.string.onboard_screen1_line1),
-            getString(R.string.onboard_screen1_line2)
-            , null
+        val slide1 = SlideModel(
+            imageId = null,
+            animationId = R.raw.animation_slide_1,
+            title = getString(R.string.onboard_screen1_line1),
+            description = getString(R.string.onboard_screen1_line2),
+            buttonText = null,
+            linkUrl = null,
+            linkMask = null
         )
 
-        val screen2 = SlideModel(
-            R.drawable.ic_slide_2,
-            null,
-            getString(R.string.onboard_screen2_line1),
-            getString(R.string.onboard_screen2_line2),
-            getString(R.string.onboard_screen2_button)
+        val slide2 = SlideModel(
+            imageId = R.drawable.ic_slide_2,
+            animationId = null,
+            title = getString(R.string.onboard_screen2_line1),
+            description = getString(R.string.onboard_screen2_line2),
+            buttonText = getString(R.string.onboard_screen2_button),
+            linkUrl = null,
+            linkMask = null
         )
 
-        val screen3 = SlideModel(
-            null,
-            null,
-            getString(R.string.onboard_screen3_line1),
-            getString(R.string.onboard_screen3_line2),
-            null,
-            getString(R.string.onboard_screen3_link_url),
-            getString(R.string.onboard_screen3_link_mask)
+        val slide3 = SlideModel(
+            imageId = null,
+            animationId = null,
+            title = getString(R.string.onboard_screen3_line1),
+            description = getString(R.string.onboard_screen3_line2),
+            buttonText = null,
+            linkUrl = getString(R.string.onboard_screen3_link_url),
+            linkMask = getString(R.string.onboard_screen3_link_mask)
         )
 
-        list.add(screen1)
-        list.add(screen2)
-        list.add(screen3)
+        list.add(slide1)
+        list.add(slide2)
+        list.add(slide3)
         return list
     }
 

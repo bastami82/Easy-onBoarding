@@ -11,6 +11,6 @@ data class SlideModel @ParcelConstructor constructor(
     val title: String?,
     val description: String?,
     val buttonText: String?,
-    val linkUrl: String = "",
-    val linkMask: String = ""
+    val linkUrl: String? = "",
+    val linkMask: String? = ""
 )
