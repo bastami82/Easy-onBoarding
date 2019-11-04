@@ -1,11 +1,13 @@
 [![](https://jitpack.io/v/bastami82/Easy-onBoarding.svg)](https://jitpack.io/#bastami82/Easy-onBoarding/v1.0.0)
 
 
+
 # Easy onBoarding
 Use this library to add onBoarding slides to your app easily.
 
 <img src="lib/src/main/res/raw/onboarding.gif" width="500" height="889">
 
+<img src="lib/src/main/res/raw/landscape.png">
 
 # Setup
 
