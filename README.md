@@ -1,4 +1,4 @@
-[![Release](https://jitpack.io/v/zurche/plain-pie.svg)](https://jitpack.io/#zurche/plain-pie/v0.2.9)
+[![Release](https://jitpack.io/v/bastami82/Easy-onBoarding.svg)](https://jitpack.io/#bastami82/Easy-onBoarding)
 
 # Easy onBoarding
 Use this library to add onBoarding slides to your app easily.
@@ -21,7 +21,7 @@ allprojects {
 Add to your app module build.gradle
 ```gradle
 dependencies {
-        implementation 'com.github.bastami82:easy-onboarding:v1.0.0'
+        implementation 'com.github.bastami82:Easy-onBoarding:v1.0.0'
 }
 ```
 
@@ -87,6 +87,7 @@ see sample app included in lib for working example:
 3- OnboardingActivity will return:
 
  `Activity.RESULT_OK`  if final button (in last slide) is tapped,
+ 
  `Activity.RESULT_CANCEL`  if back or skip button is tapped
 
 
