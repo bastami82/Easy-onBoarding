@@ -3,8 +3,7 @@
 # Easy onBoarding
 Use this library to add onBoarding slides to your app easily.
 
-![demo](https://github.com/bastami82/Easy-onBoarding/lib/src/main/res/raw/onboarding.gif "Logo Title Text 1")
-
+![](lib/src/main/res/raw/onboarding.gif)
 
 
 # Setup
